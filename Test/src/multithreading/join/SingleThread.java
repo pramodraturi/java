@@ -6,7 +6,7 @@ import java.util.Map;
 public class SingleThread {
 	
 	public static Integer folderRSN=125;
-	public static String output = "";
+	public volatile static String output = "";
 	
 	public static void main(String args[]) throws InterruptedException {
 		
